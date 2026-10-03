@@ -21,9 +21,9 @@ import MLPrediction from './pages/Doctor/MLPrediction';
 import DiabetesForm from './pages/Doctor/DiabetesForm'
 import ResetPassword from './pages/ResetPassword';
 import MedicationOrders from './pages/Admin/MedicationOrders'; 
-import Comments from "./pages/admin/Comments";
-import AdminUsersPage from "./pages/admin/AdminUsersPage";
-import AdminUserProfile from "./pages/admin/AdminUserProfile";
+import Comments from "./pages/Admin/Comments";
+import AdminUsersPage from "./pages/Admin/AdminUsersPage";
+import AdminUserProfile from "./pages/Admin/AdminUserProfile";
 import DoctorPro from "./pages/Admin/DoctorPro";
 import DoctorSchedule from "./pages/Doctor/DoctorSchedule";
 import EditUser from "./pages/Admin/EditUser"
