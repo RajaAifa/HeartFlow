@@ -22,7 +22,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 const allowedOrigins = process.env.FRONTEND_URLS
-  ? process.env.FRONTEND_URLS.split(",").map((u) => u.trim())
+  ? process.env.FRONTEND_URLS.split(",").map((u) => u.trim().replace(/\/+$/, ""))
   : ["http://localhost:5173", "http://localhost:5174"];
 
 connectDB();
@@ -34,7 +34,7 @@ app.use(
     origin: (origin, callback) => {
       // allow tools without an Origin header (curl, Postman) and listed frontends
       if (!origin || allowedOrigins.includes(origin)) return callback(null, true);
-      return callback(new Error("Not allowed by CORS"));
+      console.log("CORS blocked origin:", origin, "| allowed:", allowedOrigins); return callback(null, false);
     },
   })
 );
