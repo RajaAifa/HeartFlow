@@ -235,19 +235,13 @@ For both static sites, add a rewrite rule `/*` → `/index.html` so refreshing a
 
 ## 📸 Screenshots
 
-<!-- Add your screenshots in docs/screenshots/ then remove this comment line and the closing one below.
-
-| Home | Risk prediction |
+| Doctor risk prediction | Patient risk prediction |
 |---|---|
-| ![Home](docs/screenshots/home.png) | ![Prediction](docs/screenshots/prediction.png) |
+| ![Doctor risk prediction](docs/screenshots/heartdoc.jpeg) | ![Patient risk prediction](docs/screenshots/heartriskpat.jpeg) |
 
-| Medication and prescription AI | Admin dashboard |
+| Medication store | Admin dashboard (users) |
 |---|---|
-| ![Medication](docs/screenshots/medication.png) | ![Admin](docs/screenshots/admin-dashboard.png) |
-
--->
-
----
+| ![Medication store](docs/screenshots/medicationint.png) | ![Admin dashboard](docs/screenshots/admin-dash.png) |
 
 ## ⚠️ Disclaimer
 
