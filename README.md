@@ -17,7 +17,14 @@
 | ML prediction API | https://heartflow-ml.onrender.com |
 
 > ⏳ The project is hosted on free tiers. After a period of inactivity the services go to sleep, so the **first request can take about 50 seconds**. Open the backend and ML URLs once to wake them up, then use the apps normally.
+## 🔑 Demo Accounts
 
+| Role | Where to log in | Email | Password |
+|---|---|---|---|
+| Admin | https://heartflow-admin.onrender.com | demo.admin@heartflow.com | DEMO_PASSWORD |
+
+
+> These are throwaway accounts for testing only. Please do not enter real personal or medical data. The first load can take about 50 seconds while the free servers wake up.
 ---
 
 ## 📖 Overview
